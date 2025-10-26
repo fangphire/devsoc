@@ -18,21 +18,47 @@
 int main(int argc, char *argv[]) {
     // 1. Check for correct number of arguments.
     // The program name is argv[0], so we expect one more argument (the filename).
-    if (argc != 2) {
-        fprintf(stderr, "Usage: %s <filename>\n", argv[0]);
-        return 1; // Return an error code.
+
+    // IMPLEMENTING -c FLAG FOR TOUCH.c
+
+    int createFile = 1; //default is that file is created
+    char *filepath = NULL;
+
+    if(argc==2){
+        filepath = argv[1];
     }
- 
-    char *filepath = argv[1];
-    int fd; // File descriptor
- 
+    else if(argc == 3 && strcmp(argv[1], "-c") == 0){
+        createFile = 0;
+        filepath = argv[2];
+    }
+    else{
+        fprintf(stderr, "Usage: %s [-c] <filename>\n", argv[0]);
+        return 1;
+    }
+
+
+    if(!createFile){
+        struct stat st;
+        if(stat(filepath, &st) == -1){
+            printf("File does not exist, and -c flag used. Nothing done.\n");
+            return 0;
+        }
+    }
+
+
+    int fd;
+    if (createFile){
+        int fd = open(filepath, O_CREAT | O_WRONLY | O_APPEND, 0644);
+    }
+    else {
+        int fd = open(filepath, O_WRONLY | O_APPEND, 0644);
+    }
+    // File descriptor
     // 2. Try to open the file.
     // O_CREAT: If the file does not exist, it will be created.
     // O_WRONLY: Open for writing only.
     // O_APPEND: The file is opened in append mode.
     // 0644 are the file permissions for the new file (read/write for owner, read for others).
-    fd = open(filepath, O_WRONLY | O_CREAT | O_APPEND, 0644);
- 
     // 3. Check if the file opening was successful.
     if (fd == -1) {
         perror("Error opening file"); // perror prints the error message from the system.
