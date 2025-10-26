@@ -62,15 +62,16 @@ int main(int argc, char *argv[]) {
         perror("Error writing to stdout");
         close(fd);
         return 1;
+        }
     }
     // TODO: Step 5 - Close the file.
     // Use the close() system call to close the file descriptor.
     // Handle any potential errors from close().
-        if (close(fd) == -1) {
+    if (close(fd) == -1) {
         perror("Error closing file");
         return 1;
     }
     return 0; // Return 0 for success.
 }
- 
+
  
