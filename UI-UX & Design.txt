@@ -1,0 +1,150 @@
+https://docs.google.com/document/d/13Ezu1_6BiEruAqLDD5f7CtnZZchLs78NUbatAHa11yo/edit?usp=sharing
+
+
+
+
+
+The above google doc contains the entirety of Activity 1 to Activity 4. 
+Below is a backup .txt file without any formatting.
+
+
+Please go through the google doc link. Everyone with link should have access.
+
+
+
+
+
+<---------------------------- IGNORE UNLESS LINK DOES NOT WORK ----------------------------------------->
+
+
+
+Activity 1:
+
+https://www.figma.com/proto/OoRJO4sAqFfCokRcjGthxs/UI-UX---Design-DevSoc?node-id=0-1&t=tEe6tw2zsvqjCrpD-1
+
+https://www.figma.com/design/OoRJO4sAqFfCokRcjGthxs/UI-UX---Design-DevSoc?node-id=0-1&m=dev&t=tEe6tw2zsvqjCrpD-1
+
+
+Activity 2:
+what’s wrong with it
+the websites look super outdated, like something from the 90s. plain white backgrounds, default blue and purple links, no real layout or structure.
+
+
+there’s almost no branding besides maybe a logo. everything feels really plain and kind of thrown together.
+
+
+all the links look exactly the same: same color, same font, no way to tell what’s important.
+
+
+no navigation bar or search box, so you just get this massive wall of links.
+
+
+there’s no spacing or headings to break things up. it’s just text on texy.
+
+
+color contrast isn’t great either. Those default purple links on white are hard to read, especially for people with vision issues.
+
+
+it doesn’t seem to adjust at all for mobile screens. On a phone or tablet, you’d have to zoom in just to see anything.
+
+
+and in one of the examples (for example, in the 3rd pic), there are way too many colors and fonts fighting for attention. it’s just visual chaos.
+
+
+
+
+
+how i’d fix it
+start with a simple, clean grid,  like a header at the top, sidebar for navigation, and main content area.
+
+
+add a clear navigation bar with dropdowns so people can actually find stuff.
+
+
+use headings, icons, and some space between sections so it doesn’t feel so cramped.
+
+
+turn plain links into proper buttons or add hover effects so you know what’s clickable.
+
+
+make sure links have actual descriptions instead of “click here.”
+
+
+add a search bar and maybe some filtering or a little dashboard to make browsing easier.
+
+
+keep things minimal but tweak the spacing and color contrast so it’s easier on the eyes.
+
+
+and of course, make the whole thing responsive so it looks good on phones too.
+
+
+
+
+Activity 3:
+
+Chosen App: Spotify
+For someone who’s colorblind
+so the main issue is that spotify uses green for almost everything: play button, progress bar, active icons. if you can’t see green well, half the UI just looks the same.
+to fix that, i’d probably:
+add more contrast between buttons and the background (not just rely on color).
+
+
+use symbols or text next to color changes. like, if something’s “active,” maybe give it a check mark or a slightly different shape.
+
+
+have a “high contrast mode” in settings that boosts brightness and outlines key buttons better.
+or someone with shaky hands
+tiny buttons are the worst. i’d make the interface a bit more forgiving.
+make buttons and sliders bigger and further apart. it’s easy to accidentally tap skip when you meant pause.
+
+
+add a “steady mode” so actions like deleting or skipping tracks need a double tap or a confirm pop up.
+
+
+support voice control: “next song,” “pause,” “volume up.”
+
+
+let users customize layout — like moving their most-used buttons to the middle of the screen.
+
+
+
+
+Activity 4:
+user journey: ordering food on swiggy
+open the app – i grab my phone, open swiggy, and wait for it to load.
+feeling: fine, maybe a bit impatient if it takes too long.
+
+
+browse restaurants – i scroll through the list, check ratings, prices, and delivery times.
+frustration: sometimes too many choices, or the filters don’t really narrow things down well.
+happy: when i find a place nearby with good reviews and short delivery time.
+
+
+look at the menu – open the restaurant and start scrolling through their dishes.
+frustration: some menus are messy or have bad photos, so i’m not sure what i’m getting.
+happy: when there are clear pictures and quick add-to-cart buttons.
+
+
+add food to cart – i pick what i want, maybe customize something (like no onions, extra cheese).
+frustration: if customization options aren’t clear or don’t save properly.
+happy: when the app remembers my usual order or gives me a good combo suggestion.
+
+
+checkout and payment – go to the cart, double-check items, and choose payment method.
+frustration: if the promo code doesn’t work or there’s some hidden delivery charge at the end.
+happy: when the payment is smooth and quick (like with UPI or saved card).
+
+
+order confirmed / waiting – i get the confirmation screen with the estimated delivery time and live tracking.
+happy: watching the little map update with the driver moving toward me.
+frustration: when the ETA keeps changing or the driver goes the wrong way.
+
+
+food arrives – the delivery person shows up, i get my food, and hopefully it’s hot.
+happy: everything’s right, and the food looks like the pictures.
+frustration: wrong order, cold food, or missing items.
+
+
+
+<------------------------------------------------- END --------------------------------------------------->
